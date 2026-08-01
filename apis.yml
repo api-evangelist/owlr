@@ -1,7 +1,27 @@
 aid: owlr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/owlr.png
 name: OWLR
-description: OWLR is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OWLR (OWLR Technologies) is a London- and Fort Lauderdale-based consumer IoT
+  company that builds universal remote-monitoring apps for home IP cameras,
+  letting users view and manage cameras from many brands through a single mobile
+  application. Its products include the OWLR Multi-Brand Viewer and brand-specific
+  viewers for Foscam and D-Link, plus motion-alert notifications. OWLR emphasizes a
+  privacy-first design in which camera credentials stay on the user's phone and
+  nothing is stored on OWLR's servers. The company reports over two million users
+  and was backed by 500 Global. OWLR is a consumer mobile product and does not
+  publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/owlr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- IoT
+- Security
+- Cameras
+- Home Automation
+- Surveillance
+- Mobile
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://owlr.com
+- type: Blog
+  url: https://owlr.com/owlrs-nest-the-blog/
+- type: BlogRSS
+  url: https://owlr.com/feed/
+- type: Support
+  url: https://owlr.uservoice.com
+- type: TermsOfService
+  url: http://app.owlr.com/termsconditions.html
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/203513
+- type: DomainSecurity
+  url: security/owlr-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
